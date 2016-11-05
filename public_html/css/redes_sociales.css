@@ -1,0 +1,38 @@
+.rsocial{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 250px;
+    z-index: 2000;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.rsocial ul{
+    list-style: none;
+}
+
+.rsocial ul li a{
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.rsocial ul li .icon-facebook{background:#3b5998;}
+.rsocial ul li .icon-instagram{background:#ae181f ;}
+.rsocial ul li .icon-twitter{background:#00abf0;}
+
+.rsocial ul li a:hover{
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 30px;
+    background: #000;
+}

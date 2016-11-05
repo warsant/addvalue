@@ -1,0 +1,20 @@
+body { 
+    width: 80%;
+    max-width: 1000px;
+    font-size: 16px;
+    background: #fff;
+    margin: auto;
+    background-color:#FFFFFF; 
+    background-repeat: no-repeat; 
+    background-position: top;     
+
+    /* Flex */
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;    
+} 
+
+img{
+    padding: 100px;
+}

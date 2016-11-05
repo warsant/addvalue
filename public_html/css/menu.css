@@ -1,0 +1,68 @@
+menu{
+    background: #fff;
+    width: 100%;
+    height: 20px;
+    padding-left: 20px;
+
+    /*Flex*/
+    display: -webkit-flex;
+    display: -ms-flexbox;     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap; 
+}
+
+#btn-menu{
+    display: none;
+}
+
+.icono-menu{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    border-right: 1px solid #000;
+    text-align: center;
+}
+
+.icono-menu:hover{
+    cursor: pointer;
+    background: gray;
+}
+
+.icono-menu img{
+    width: 30px;
+    height: 30px;
+}
+
+.navega{
+    height: 30px;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;     
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navega a{
+    font-size: 14px;
+    border-right: 1px solid gray;
+}
+
+.navega a:hover{
+    background: rgba(227, 229, 230, 0.3);
+}
+
+.navega a{
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+}

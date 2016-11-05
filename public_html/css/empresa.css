@@ -1,0 +1,49 @@
+empresa{
+    background: #fff;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 0px; 
+
+    /* Flex */
+    display: -webkit-flex;
+    display: -ms-flexbox;    
+    display: flex;
+}
+
+empresa .experien{
+    background: #fff;
+    width: 100%;
+    height: 150px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    /* Flex */
+    display: -webkit-flex;
+    display: -ms-flexbox;    
+    display: flex;
+    justify-content: center;
+}
+
+empresa .experien .concepto{
+    background: #32B4F5;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+empresa .experien .concepto h3{
+    font-size: 18px;
+    color: #fff;
+}
+
+empresa .experien .concepto .pconcep{
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+}
