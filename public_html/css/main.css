@@ -1,67 +1,25 @@
 imagenemp{
+    width: 90%;
     background: #fff;
     padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 5px;
+    align-content: center;
 
     /* Flex */
-    display: -webkit-flex;
-    display: -ms-flexbox;    
     display: flex;
     flex-flow: row wrap;
     flex: 1 1 70%;
 }
 
 .main{
-    width: 70%;
+    width: 99%;
     height: 360px;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
-aside{
-    width: 30%;
-    height: 340px;
-    background: #fff;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
 
-    /* Flex */
-    display: -webkit-flex;
-    display: -ms-flexbox;    
-    display: flex;
-    flex: 1 1 30%;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-}
-
-aside .contacto{
-    font-size: 12px;
-    color: #fff;
-    background: gray;
-    height: 160px;;
-}
-
-aside .contacto h3, p{
-    margin: 10px;
-    font-size: 12px;
-    color: #fff;
-}
-
-aside .imgcontacto{
-    font-size: 12px;
-    color: #fff;
-    background: #fff;
-    height: 160px;
-    text-align: center;
-}
-
-aside .imgcontacto img{
-    width: 230px;
-    height: 160px;
-}
-
-aside .imgcontacto img:hover{
-    cursor: pointer;
-}
 
 @media screen and(max-width: 800px){
     .contenedor{
@@ -77,8 +35,4 @@ aside .imgcontacto img:hover{
         width: 100%;
     }    
 
-    aside{
-        width: 100%;
-        flex-flow: row wrap;
-    }
 }
