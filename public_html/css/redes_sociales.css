@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     position: fixed;
-    right: 0;
+    left: 0;
     top: 250px;
     z-index: 2000;
     -webkit-box-sizing:border-box;
