@@ -1,7 +1,7 @@
 informa{
     background: #fff;
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 
     /* Flex */
     display: flex;
@@ -22,38 +22,12 @@ informa{
     flex-wrap: wrap;    
 }
 
-.elemento{
-    color: #585858;
-    font-size: 13px;
-    padding: 10px;
-    margin: 5px;
+.seccion{
+    background: #fff;
     width: 480px;
-    height: 256px;
-    background: #f2f2f2;
-    text-align: justify;
-}
-
-.elemento .icon, h3{
-    padding-top: 20px;
-    font-size: 16px;
-    color: #20528D;
-    text-align: center;
-}
-
-.elemento a{
-    padding-left: 30px;
-    font-size: 14px;
-}
-
-.elemento .icon img{
-    width: 65px;
-    height: 65px;
-}
-
-.elemento .texto{
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 0px;
-    color:#8E9298;
+    padding-bottom: 0px;
+    margin: 5px;
 }

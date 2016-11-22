@@ -1,0 +1,42 @@
+{
+  "name": "info-card",
+  "version": "0.0.10",
+  "authors": [
+    "Winston Howes <winstonhowes@gmail.com>"
+  ],
+  "description": "A card that displays a picture with some info in a pretty format.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "info",
+    "card"
+  ],
+  "main": "info-card.html",
+  "license": "MIT",
+  "homepage": "https://github.com/winhowes/info-card/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/",
+    "/bower_components/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "paper-material": "PolymerElements/paper-material#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  },
+  "_release": "0.0.10",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.10",
+    "commit": "cf1fd533d3ebe688e697c1a18620b2b2ea2ae0a3"
+  },
+  "_source": "https://github.com/winhowes/info-card.git",
+  "_target": "^0.0.10",
+  "_originalSource": "info-card",
+  "_direct": true
+}
