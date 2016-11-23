@@ -44,7 +44,7 @@
 }
 
 .flex-control-nav li{
-	display: inline-block;
+	display: inline-flex;
 	margin: 0 6px;
 }
 
@@ -76,10 +76,10 @@
 	overflow: hidden;
 	opacity: 0;
 	-webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .flex-direction-nav .flex-prev{
@@ -102,29 +102,46 @@
   content: '\f002';
 }
 
-.flex-caption h3{
-	font-family: Lato;
-	position: absolute;
-	top: 55%;
-	left: 20px;
-	text-align: left;
-	width: 100%;
-	font-size: 25px;
-	text-decoration: none;
-	color: #fff;
-	font-weight: bold;	
-}
-
-.flex-caption p{
-	font-family: Lato;
+.background {
+    width: 350px;
+    height: 100px;
 	position: absolute;
 	top: 70%;
-	left: 20px;
+	left: 0px;    
+    background-color: gray;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+}
+ 
+.trans {
+    opacity: 0.7;
+}
+
+/*.flex-caption h3{
+	font-family: 'Taviraj', serif;
+	position: absolute;
+	top: 85%;
+	left: 45px;
 	text-align: left;
-	width: 100%;
-	font-size: 25px;
+	width: 330px;
+	font-size: 20px;
+	text-decoration: none;
 	color: #fff;
 	font-weight: bold;
+	z-index: 1;	
+}*/
+
+.flex-caption p{
+	font-family: 'Taviraj', serif;
+	position: absolute;
+	top: 72%;
+	left: 10px;
+	text-align: left;
+	width: 330px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	z-index: 1;
 }
 
 .flexslider:hover .flex-direction-nav .flex-prev{
