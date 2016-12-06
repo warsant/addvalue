@@ -31,13 +31,12 @@ body{
 .contenedor {
     width: 90%;
     max-width: 1000px;
+    z-index: 1000;
     font-size: 16px;
     background: #fff;
     margin: auto;
 
     /* Flex */
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     flex-flow: row wrap;
 }
@@ -55,7 +54,7 @@ body{
         flex-direction: column;
     }
 
-    .navege{
+    .navega{
         flex-direction: column;
     }
 }

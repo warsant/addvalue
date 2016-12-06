@@ -1,8 +1,9 @@
-informa{
+.informa{
     background: #fff;
     width: 100%;
     padding-bottom: 5px;
-
+    padding-left: 20px;
+    padding-right: 10px;
     /* Flex */
     display: flex;
     flex-wrap: wrap;
@@ -11,23 +12,52 @@ informa{
 .informacion{
     background: #fff;
     width: 100%;
-    padding-left: 13px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-
-    /* Flex */
-    display: -webkit-flex;
-    display: -ms-flexbox;    
-    display: flex;
-    flex-wrap: wrap;    
 }
 
 .seccion{
     background: #fff;
-    width: 480px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    width: 100%;
     margin: 5px;
+}
+
+/*   Estilos Responsive   */
+
+@media(min-width: 480px){
+    .informacion{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;         
+    }
+
+    .seccion{
+        width: 100%;   
+    }
+}    
+
+@media(min-width: 768px){
+    .informacion{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;         
+    }
+
+    .seccion{
+        width: 100%;   
+    }
+}
+
+@media(min-width: 1024px){
+    .informacion{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;         
+    }
+
+    .seccion{
+        width: 48%;   
+    }
+
 }

@@ -4,7 +4,7 @@ imagenemp{
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 0px;
-    padding-top: 5px;
+    padding-top: 150px;
     align-content: center;
 
     /* Flex */
@@ -17,6 +17,7 @@ imagenemp{
     width: 99%;
     height: 360px;
     padding-left: 0px;
+
 }
 
 

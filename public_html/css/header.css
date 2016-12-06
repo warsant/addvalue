@@ -1,16 +1,20 @@
+/*
+
 header{
     background: #fff;
-    width: 100%;
+    width: 1000px;
     height: 150px;
-    padding: 0px;
+    padding-bottom: 10px;
+    z-index: 9999;
 
     /*Flex*/
-    display: -webkit-flex;
+ /*   display: -webkit-flex;
     display: -ms-flexbox;    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
+    position: fixed; 
 }
 
 header .logo{
@@ -19,11 +23,11 @@ header .logo{
 }
 
 header .logo img{
-    width: 150px;
+    width: 200px;
     vertical-align: top;
 }
 
-header .contact img{
+/*header .contact img{
     padding: 10px;
     width: 100px;
     height: auto;
@@ -32,4 +36,4 @@ header .contact img{
 
 .contact:hover {
     cursor: pointer;
-}
+}*/

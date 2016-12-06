@@ -1,33 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
-        <title>Nosotros</title>
+        <link rel="shortcut icon" href="img/addvalue_nuevo2.ico">
+        <title>Addvalue</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
         <link rel="stylesheet" href="css/estilos.css">
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
         <link rel="import" href="bower_components/info-card/info-card.html">
-        <link rel="import" href="bower_components/paper-card/paper-card.html">
-        <link rel="import" href="bower_components/paper-material/paper-material.html">
+        <!--script src="js/jquery.slides.js"></script-->
+        <script src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    touch: true,
+                    pauseOnAction: false,
+                    pauseOnHover: false,
+                });
+            });
+        </script>
     </head>
     <body>
-    	<div class="contenedor">
-
-	     </div>
-         <footer>
-            <section class="links">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="servicios.html">Servicios</a>
-                <a href="saphcm.html">SAP HCM</a>
-                <a href="soporte.html">Soporte Técnico</a>
-                <a href="contacto.html">Contáctanos</a>
-            </section>
-            <div class="social">
-                <a class="icon-facebook" href="#"></a>
-                <a class="icon-instagram" href="#"></a>
-                <a class="icon-twitter" href="#"></a>
+        <div class="contenedor">
+            <header class="header">
+                <div class="logo-menu">
+                    <img class="logo" src="img/addvalue_nuevo.jpg" alt="">
+                    <span class="icon-menu" id="btn-menu"></span>
+                    <nav class="nav" id="nav">
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a class="menu-link select" href="#">
+                                    <img class="img-inicio" src="img/Inicio3d.png" width="20" alt="">
+                                </a>
+                            </li>
+                            <li class="menu-item"><a class="menu-link" href="#">Nosotros</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">Servicios</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">SAP HCM</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">Soporte Técnico</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">Contáctanos</a></li>
+                        </ul>
+                    </nav>                    
+                </div>
+            </header>
+            <script src="js/menu.js"></script>
+            <div class="rsocial">
+                <ul>
+                    <li><a href="http://www.facebook.com/" target="_blank" class="icon-facebook"></a></li>
+                    <li><a href="http://www.instagram.com/" target="_blank" class="icon-instagram"></a></li>
+                    <li><a href="http://www.twitter.com/" target="_blank" class="icon-twitter"></a></li>
+                </ul>
             </div>
-        </footer>
+
+            <imagenempresa class="imagenempresa">
+                <div class="nosotros">
+                    <img class="img__nosotros" src="img/banner-nosotros.jpg"></img>
+                </div>                    
+            </imagenempresa>
+        </div>
     </body>
-</html>
+</html> 

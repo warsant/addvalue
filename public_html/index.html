@@ -3,7 +3,7 @@
 Color azul del logo a utilizar #20528D
 Color gris del logo a utilizar #8E9298
 -->
-<html>
+<html lang="es">
     <head>
 
         <link rel="shortcut icon" href="img/addvalue_nuevo2.ico">
@@ -24,32 +24,32 @@ Color gris del logo a utilizar #8E9298
                     pauseOnHover: false,
                 });
             });
-        </script>        
+        </script>
     </head>
 
     <body>
         <div class="contenedor">
-            <header>
-                <div class="logo">
-                    <a href="#">
-                        <img src="img/addvalue_nuevo.jpg" width="150" alt="">
-                    </a>
-                </div>
-                <div class="menu">
-                    <menu>
-                        <nav class="navega">
-                            <a class="home" href="#">
-                                <img src="img/Inicio3d.png" width="30" alt="">
-                            </a>
-                            <a href="construccion.html">Nosotros</a>
-                            <a href="construccion.html">Servicios</a>
-                            <a href="construccion.html">SAP HCM</a>
-                            <a href="construccion.html">Soporte Técnico</a>
-                            <a href="construccion.html">Contáctanos</a>
-                        </nav>
-                    </menu>
+            <header class="header">
+                <div class="logo-menu">
+                    <img class="logo" src="img/addvalue_nuevo.jpg" alt="">
+                    <span class="icon-menu" id="btn-menu"></span>
+                    <nav class="nav" id="nav">
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a class="menu-link select" href="#">
+                                    <img class="img-inicio" src="img/Inicio3d.png" width="20" alt="">
+                                </a>
+                            </li>
+                            <li class="menu-item"><a class="menu-link" href="#">Nosotros</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">Servicios</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">SAP HCM</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">Soporte Técnico</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">Contáctanos</a></li>
+                        </ul>
+                    </nav>                    
                 </div>
             </header>
+            <script src="js/menu.js"></script>
             <div class="rsocial">
                 <ul>
                     <li><a href="http://www.facebook.com/" target="_blank" class="icon-facebook"></a></li>
@@ -64,7 +64,6 @@ Color gris del logo a utilizar #8E9298
                             <li>
                                 <img src="img/slider/slider01.jpg" alt="">
                                 <section class="flex-caption">
-                                    <!--h3>Usted cuenta con</h3-->
                                     <p>Usted cuenta con nuestro equipo de expertos en SAP-HCM</p>
                                 </section>
                                 <div class="background trans"></div>
@@ -72,7 +71,6 @@ Color gris del logo a utilizar #8E9298
                             <li>
                                 <img src="img/slider/slider02.jpg" alt="">
                                 <section class="flex-caption">
-                                    <!--h3>Desarrolle las competencias</h3-->
                                     <p>Desarrolle las competencias de sus empleados en SAP-HCM</p>
                                 </section>
                                 <div class="background trans"></div>
@@ -80,7 +78,6 @@ Color gris del logo a utilizar #8E9298
                             <li>
                                 <img src="img/slider/slider03.jpg" alt="">
                                 <section class="flex-caption">
-                                    <!--h3>Agilice su gestión de nómina</h3-->
                                     <p>Agilice su gestión de nómina y optimice los procesos de Recursos Humanos</p>
                                 </section>
                                 <div class="background trans"></div>
@@ -88,7 +85,6 @@ Color gris del logo a utilizar #8E9298
                             <li>
                                 <img src="img/slider/slider05.jpg" alt="">
                                 <section class="flex-caption">
-                                    <!--h3>IMAGEN 5</h3-->
                                     <p>LOREM IPSUM 5</p>
                                 </section>
                                 <div class="background trans"></div>
@@ -96,7 +92,6 @@ Color gris del logo a utilizar #8E9298
                             <li>
                                 <img src="img/slider/slider06.jpg" alt="">
                                 <section class="flex-caption">
-                                    <!--h3>IMAGEN 6</h3-->
                                     <p>LOREM IPSUM 6</p>
                                 </section>
                                 <div class="background trans"></div>
@@ -105,7 +100,7 @@ Color gris del logo a utilizar #8E9298
                     </div>                                   
                 </div>
             </imagenemp>
-            <empresa>
+            <empresa class="empresa">
                 <section class="experien">
                     <div class="concepto">
                         <h3>ADD VALUE IT Consulting</h3>
@@ -114,7 +109,7 @@ Color gris del logo a utilizar #8E9298
                     </div>
                 </section>
             </empresa>
-            <informa>
+            <informa class="informa">
                 <section class="informacion">
                     <div class="seccion seccion1">
                         <info-card image="img/basicos/icono-01.png" offset-y="top">
