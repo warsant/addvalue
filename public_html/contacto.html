@@ -2,9 +2,55 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Documento nuevo</title>
+        <link rel="stylesheet" href="css/contacto.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <title>Contacto</title>
+        <!--script src="js/jquery.slides.js"></script-->
+        <script src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    touch: true,
+                    pauseOnAction: false,
+                    pauseOnHover: false,
+                });
+            });
+        </script>        
     </head>
     <body>
-    
+
+
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <img src="img/slider/slider01.jpg" alt="">
+                                <section class="flex-caption">
+                                    <p>Usted cuenta con nuestro equipo de expertos en SAP-HCM</p>
+                                </section>
+                                <div class="background trans"></div>
+                            </li>
+                            <li>
+                                <img src="img/slider/slider02.jpg" alt="">
+                                <section class="flex-caption">
+                                    <p>Desarrolle las competencias de sus empleados en SAP-HCM</p>
+                                </section>
+                                <div class="background trans"></div>
+                            </li>
+                            <li>
+                                <img src="img/slider/slider03.jpg" alt="">
+                                <section class="flex-caption">
+                                    <p>Agilice su gestión de nómina y optimice los procesos de Recursos Humanos</p>
+                                </section>
+                                <div class="background trans"></div>
+                            </li>
+                            <li>
+                                <img src="img/slider/slider06_b.jpg" alt="">
+                                <section class="flex-caption">
+                                    <p>Nuestra sede ubicada en un sitio estratégico para estar siempre cerca de usted</p>
+                                </section>
+                                <div class="background trans"></div>
+                            </li>                                               
+                        </ul>
+                    </div>  
     </body>
 </html>

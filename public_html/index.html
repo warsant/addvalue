@@ -14,17 +14,6 @@ Color gris del logo a utilizar #8E9298
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
         <link rel="import" href="bower_components/info-card/info-card.html">
-        <!--script src="js/jquery.slides.js"></script-->
-        <script src="js/jquery.flexslider.js"></script>
-        <script type="text/javascript" charset="utf-8">
-            $(window).load(function() {
-                $('.flexslider').flexslider({
-                    touch: true,
-                    pauseOnAction: false,
-                    pauseOnHover: false,
-                });
-            });
-        </script>
     </head>
 
     <body>
@@ -40,11 +29,21 @@ Color gris del logo a utilizar #8E9298
                                     <img class="img-inicio" src="img/Inicio3d.png" width="20" alt="">
                                 </a>
                             </li>
-                            <li class="menu-item"><a class="menu-link" href="#">Nosotros</a></li>
-                            <li class="menu-item"><a class="menu-link" href="#">Servicios</a></li>
-                            <li class="menu-item"><a class="menu-link" href="#">SAP HCM</a></li>
-                            <li class="menu-item"><a class="menu-link" href="#">Soporte Técnico</a></li>
-                            <li class="menu-item"><a class="menu-link" href="#">Contáctanos</a></li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="servicios.html">Servicios</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="construccion.html">SAP HCM</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="construccion.html">Soporte Técnico</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="construccion.html">Contáctanos</a>
+                            </li>
                         </ul>
                     </nav>                    
                 </div>
@@ -59,45 +58,29 @@ Color gris del logo a utilizar #8E9298
             </div>
             <imagenemp>
                 <div class="main">
-                    <div class="flexslider">
-                        <ul class="slides">
-                            <li>
-                                <img src="img/slider/slider01.jpg" alt="">
-                                <section class="flex-caption">
-                                    <p>Usted cuenta con nuestro equipo de expertos en SAP-HCM</p>
-                                </section>
-                                <div class="background trans"></div>
-                            </li>
-                            <li>
-                                <img src="img/slider/slider02.jpg" alt="">
-                                <section class="flex-caption">
-                                    <p>Desarrolle las competencias de sus empleados en SAP-HCM</p>
-                                </section>
-                                <div class="background trans"></div>
-                            </li>
-                            <li>
-                                <img src="img/slider/slider03.jpg" alt="">
-                                <section class="flex-caption">
-                                    <p>Agilice su gestión de nómina y optimice los procesos de Recursos Humanos</p>
-                                </section>
-                                <div class="background trans"></div>
-                            </li>
-                            <li>
-                                <img src="img/slider/slider05.jpg" alt="">
-                                <section class="flex-caption">
-                                    <p>LOREM IPSUM 5</p>
-                                </section>
-                                <div class="background trans"></div>
-                            </li>
-                            <li>
-                                <img src="img/slider/slider06.jpg" alt="">
-                                <section class="flex-caption">
-                                    <p>LOREM IPSUM 6</p>
-                                </section>
-                                <div class="background trans"></div>
-                            </li>                                               
-                        </ul>
-                    </div>                                   
+                    <div id="contenedor-slider" class="contenedor-slider">
+                        <div id="slider" class="slider">
+                            <div class="slider__section">
+                                <img src="img/slider/slider01.jpg" class="slider__img">
+                                <div class="background">Agilice su gestión de nómina y optimice los procesos de Recursos Humanos</div>
+                            </div>
+                            <div class="slider__section">
+                                <img src="img/slider/slider02.jpg" class="slider__img">
+                                <div class="background">Nuestra Ubicación Geográfica nos permite brindarles servicios competitivos con rapidez y de alta calidad a bajos costos.</div>                                
+                            </div>
+                            <div class="slider__section">
+                                <img src="img/slider/slider03.jpg" class="slider__img">
+                                <div class="background">Usted cuenta con nuestro equipo de expertos en SAP-HCM</div>
+                            </div>
+                            <div class="slider__section">
+                                <img src="img/slider/slider06_b.jpg" class="slider__img">
+                                <div class="background">Desarrolle las competencias de sus empleados en SAP-HCM</div>
+                            </div>
+                        </div>
+                        <div id="btn-prev" class="btn-prev">&#60;</div>
+                        <div id="btn-next" class="btn-next">&#62;</div>
+                    </div>
+                    <script type="text/javascript" src="js/slides.js"></script>
                 </div>
             </imagenemp>
             <empresa class="empresa">
@@ -142,8 +125,8 @@ Color gris del logo a utilizar #8E9298
                 </section>
             </informa>
             <nomina>
-                <section class="confi">
-                    <div class="nominas">
+                <section class="confi_nominas">
+                    <div class="pre_nominas">
                         <a href="#">
                             <img src="img/basicos/nomina-paises.jpg" alt="">
                         </a>
@@ -154,9 +137,9 @@ Color gris del logo a utilizar #8E9298
                 <section class="links">
 		            <a href="nosotros.html">Nosotros</a>
 		            <a href="servicios.html">Servicios</a>
-		            <a href="saphcm.html">SAP HCM</a>
-		            <a href="soporte.html">Soporte Técnico</a>
-		            <a href="contacto.html">Contáctanos</a>
+		            <a href="construccion.html">SAP HCM</a>
+		            <a href="construccion.html">Soporte Técnico</a>
+		            <a href="construccion.html">Contáctanos</a>
                 </section>
                 <div class="social">
                     <a class="icon-facebook" href="#"></a>

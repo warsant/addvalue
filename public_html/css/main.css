@@ -17,18 +17,18 @@ imagenemp{
     width: 99%;
     height: 360px;
     padding-left: 0px;
-
+    display: flex;
 }
 
 
 
 @media screen and(max-width: 800px){
     .contenedor{
-          flex-flow: column wrap;
+        flex-flow: column wrap;
     }
 
     imagenemp{
-          flex-flow: column wrap;
+        flex-flow: column wrap;
     }
 
     .main{

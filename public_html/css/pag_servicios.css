@@ -1,0 +1,131 @@
+/*------- Contenedor principal de la página -------*/
+.contenedor{
+	width: 90%;
+    max-width: 1000px;
+    z-index: 1000;
+    font-size: 14px;
+    background: #fff;
+    margin: auto;
+
+    /* Flex */
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/*------- Contenedor de imagen de servicios -------*/
+.imagen-servicios{
+    width: 90%;
+    background: #fff;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 150px;
+    align-content: center;
+
+    /* Flex */
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 70%;
+    align-items: stretch;
+}
+
+.img_servicios{
+	width: 100%;
+	height: 180px;
+	margin-bottom: 10px;
+}
+
+.titulos_servicios{
+	width: 100%;
+	color: #20528D;
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+
+/*------- Contenedor de nuestros servicios -------*/
+.nuestros-servicios{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	/*box-shadow: 0 20px 20px -12px #000;	
+	/*padding: 10px;*/
+
+    /* Flex */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex: 1 1 100%;
+}
+
+.servicios{
+	/*------- esto crea una sombra en el contenedor  -------*/    
+/*	box-shadow: 0 0 0 2px #ccc,
+				0 20px 20px -12px #000;
+	background: #eaeaea;*/
+	box-shadow: 0 20px 20px -15px #000;
+	padding: 20px;
+	font-size: 14px;
+    color: gray;
+	text-align: justify;
+
+	/* Flex */
+    display: flex;
+    flex-flow: row wrap;	
+}
+
+.servicios_varios{
+	margin-top: 20px;
+
+	/* Flex */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+ }
+
+.saphcm, .nominas, .soporte, .documentacion{
+	margin-top: 10px;
+	width: 50%;
+/*	box-shadow: 0 0 0 2px #ccc,
+				0 20px 20px -12px #000;
+	background: #eaeaea;*/
+	box-shadow: 0 20px 20px -15px #000;
+	padding: 10px;
+	font-size: 14px;
+    color: gray;
+	text-align: justify;	
+
+	/* Flex */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.icono_servicio{
+	width: 20%;
+	margin-right: 5px;
+
+		/* Flex */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.icono_servicio img{
+	width: 100%;
+	height: 80px;
+}
+
+.divide{
+	width: 75%;
+}
+
+.linea_servicios{
+	color: gray;
+	width: 100%;
+}
+
