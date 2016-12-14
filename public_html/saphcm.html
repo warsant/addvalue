@@ -1,39 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
-        <title>SapHcm</title>    
+        <link rel="shortcut icon" href="img/addvalue_nuevo2.ico">
+        <title>SAP-HCM</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
-        <link rel="stylesheet" href="css/saphcm.css">
+        <link rel="stylesheet" href="css/estilos.css">
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+        <link rel="import" href="bower_components/info-card/info-card.html">
     </head>
     <body>
-        <h2>SAP-HCM</h2>
-
-        <div class="main">
-            <div id="contenedor-slider" class="contenedor-slider">
-                <div id="slider" class="slider">
-                    <section class="slider__section">
-                        <img src="img/slider/slider01.jpg" class="slider__img">
-                        <div class="background">Imagen Número 1</div>
-                    </section>
-                    <section class="slider__section">
-                        <img src="img/slider/slider02.jpg" class="slider__img">
-                        <div class="background">Imagen Número 2</div>
-                    </section>
-                    <section class="slider__section">
-                        <img src="img/slider/slider03.jpg" class="slider__img">
-                        <div class="background">Imagen Número 3</div>
-                    </section>
-                    <section class="slider__section">
-                        <img src="img/slider/slider06.jpg" class="slider__img">
-                        <div class="background">Imagen Número 4</div>
-                    </section>
+        <div class="contenedor">
+            <header class="header">
+                <div class="logo-menu">
+                    <img class="logo" src="img/addvalue_nuevo.jpg" alt="">
+                    <span class="icon-menu" id="btn-menu"></span>
+                    <nav class="nav" id="nav">
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a class="menu-link select" href="index.html">
+                                    <img class="img-inicio" src="img/Inicio3d.png" width="20" alt="">
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="servicios.html">Servicios</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="saphcm.html">SAP HCM</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="construccion.html">Soporte Técnico</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="contacto.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                    </nav>                    
                 </div>
-                <div id="btn-prev" class="btn-prev">&#60;</div>
-                <div id="btn-next" class="btn-next">&#62;</div>
+            </header>
+            <script src="js/menu.js"></script>
+            <div class="rsocial">
+                <ul>
+                    <li><a href="http://www.facebook.com/" target="_blank" class="icon-facebook"></a></li>
+                    <li><a href="http://www.instagram.com/" target="_blank" class="icon-instagram"></a></li>
+                    <li><a href="http://www.twitter.com/" target="_blank" class="icon-twitter"></a></li>
+                </ul>
             </div>
-            <script type="text/javascript" src="js/slides.js"></script>
-        </div>        
+
+            <imagenempresa class="imagen-saphcm">
+                <img class="img_saphcm" src="img/banner-sap_hcm.jpg">
+                <hr class="linea_saphcm">
+            </imagenempresa>
+
+            <informa class="conten_saphcm">
+                <section class="concep_saphcm">
+                        <div class="titulos_saphcm"><h2>SAP HCM</h2></div>
+                        <p>
+                            ADDVALUE IT Consulting ofrece la transformación de la Gestión de Capital Humano de su empresa, soportado en una plataforma sólida. Respaldamos a su organización en la optimización y/o estabilización de los procesos de Gestión de Talento y a generar una mayor eficiencia a través de la implantación de SAP–HCM, de manera rápida, efectiva y a bajos costos.
+                        </p>
+                </section>
+
+                <section class="saphcm_varios">    
+                    <div class="om">
+                        <div class="titulos_saphcm"><h2>Gestión de la Organización (OM)</h2></div>
+                        <ul class="listas_saphcm">
+                            <li>Proporciona herramientas para crear y mantener un modelo exacto de la organización.</li> 
+                            <li>Permite a los empleados gestionar y transferir información sobre las políticas y estructuras organizativas, de forma fácil.</li>
+                            <li>Proporciona capacidades de desarrollo organizativo, como planificación y simulación organizacional, análisis de actividades y los análisis de los puestos de trabajo.</li>
+                        </ul>
+                    </div>
+                    <div class="pa">
+                        <div class="titulos_saphcm"><h2>Administración de Personal (PA)</h2></div>
+                        <ul> 
+                            <li>Soporta todos los procesos básicos para la gestión de personal, como Reclutamiento, selección, orientación, formación y capacitación, evaluación y redimiendo, desarrollo de carreras y recompensa.</li>
+                            <li>Permite a los directores acceso a la información actualizada y consistente de los empleados, para decisiones relacionadas con el negocio.</li>
+                        </ul>
+                    </div>
+                    <div class="bn">
+                        <div class="titulos_saphcm"><h2>Gestión de Beneficios (BN)</h2></div>
+                        <ul>
+                            <li>Soporta todas las labores administrativas relacionadas con beneficios.</li>
+                            <li>Ofrece múltiples opciones de configuración que permite adaptar la más variada gama de beneficios y complejas definiciones de planes, a medida del usuario.</li>
+                            <li>Ofrece informes flexibles que permite resumir y analizar de manera fácil los datos de los beneficios.</li>
+                        </ul>
+                    </div> 
+                    <div class="pcp">
+                        <div class="titulos_saphcm"><h2>Planificación de Costos de Personal (PCP)</h2></div>
+                        <ul>
+                            <li>Apoya a los especialistas de Recursos Humanos en todas las tareas que abarcan la planificación de costes del personal y a los directivos a desarrollar estrategias efectivas de recursos humanos.</li>
+                            <li>Facilita la planificación precisa, la simulación de escenarios de planificación, y permite controlar continuamente el rendimiento actual frente al planificado.</li>
+                        </ul>
+                    </div> 
+                    <div class="pt">
+                        <div class="titulos_saphcm"><h2>Gestión del Tiempo (PT)</h2></div>
+                        <ul>
+                            <li>Proporciona de forma sencilla y amigable registrar, buscar, controlar y evaluar los tiempos de trabajo y actividades de sus empleados.</li>
+                            <li>Permite controlar las tareas de los encargados de la gestión de tiempos.</li>
+                        </ul>
+                    </div>
+                    <div class="py">
+                        <div class="titulos_saphcm"><h2>Gestión de Nómina (PY)</h2></div>
+                        <ul>
+                            <li>Puede manejar procesos de nómina complejos en conformidad con las normas legales de cada país. </li>
+                            <li>Nómina Localizada.</li>
+                            <li>Parametrización de diversos conceptos de nómina.</li> 
+                            <li>Manejo de diferentes tipos de empleados.</li> 
+                            <li>Manejos de diversas frecuencias de pagos.</li> 
+                            <li>Manejo de acuerdos colectivos.</li> 
+                            <li>Velocidad de cálculo.</li>
+                        </ul>
+                    </div>                     
+                </section>
+            </informa>
+
+            <informa class="talento">
+                <section class="concep_talento">
+                        <div class="titulos_saphcm"><h2>Gestión Talento</h2></div>
+                        <p>
+                            Permite integrar todos los procesos de gestión del talento para que su empresa reclute los mejores candidatos, desarrolle y cultive sus talentos y retenga los empleados más productivos.
+                        </p>
+                </section>
+
+                <section class="talento_varios">
+                    <div class="rc">
+                        <div class="titulos_saphcm"><h2>Reclutamiento (RC)</h2></div>
+                        <ul class="listas_saphcm">
+                            <li>Acelera y optimiza sus procesos de contratación; la solución le permite Identificar, atraer y contratar de manera rápida y rentable al talento correcto.</li>
+                            <li>Permite construir su fuerza laboral a partir de un grupo calificado y global de talentos internos y externos.</li>
+                            <li>Afirma la reducción de costos de contratación, al utilizar la información estratégica de contratación y medir el impacto.</li>
+                        </ul>
+                    </div>
+                    <div class="tlm">
+                        <div class="titulos_saphcm"><h2>Capacitación y Desarrollo (TLM)</h2></div>
+                        <ul class="listas_saphcm">
+                            <li>Permite comprobar dónde se encuentran sus talentos y cuáles son sus necesidades de formación.</li> 
+                            <li>Contribuye a alinear las actividades de aprendizaje con la competencia del empleado, pensando en las necesidades actuales y futuras de la empresa.</li>
+                            <li>Ayuda a mejorar la motivación con el desarrollo continuo y la planificación de carrera y fortalecer los equipos de trabajo para lograr más eficiencia.</li>
+                            <li>Contribuye a cultivar el potencial de los empleados, la identificación, el desarrollo y la retención de talentos; que resultan esenciales para el éxito de la empresa.</li>
+                        </ul>
+                    </div>
+                    <div class="osa">
+                        <div class="titulos_saphcm"><h2>Evaluación del Desempeño (OSA)</h2></div>
+                        <ul class="listas_saphcm">
+                            <li>Posee una interfaz de usuario amigable y planillas prediseñadas que pueden personalizarse y llevar a cabo una evaluación en línea.</li> 
+                            <li>Permite detectar habilidades y potenciar el desarrollo del personal.</li>
+                            <li>Proporciona agilidad al proceso de evaluación y centraliza la información para hacer distintos tipos de análisis.</li>
+                            <li>Permite enlazar los resultados con el módulo de capacitación y desarrollo.</li>
+                            <li>Genera un avance considerable en la optimización de los procesos de la empresa vinculados con la gestión de Recursos Humanos.</li>
+                        </ul>
+                    </div>
+                    <div class="ecm">
+                        <div class="titulos_saphcm"><h2>Gestión de Compensación de Empleados (ECM)</h2></div>
+                        <ul class="listas_saphcm">
+                            <li>Posee herramientas que permite realizar todas las tareas relacionadas con la compensación, incluyendo todos los actores involucrados en los procesos.</li> 
+                            <li>Permite implementar estrategias de remuneración tales como: retribución variable, pago por desempeño, programas de incentivos a largo plazo.</li>
+                            <li>Estimula la medición para la toma de mejores decisiones de compensación con apreciaciones objetivas.</li>
+                        </ul>
+                    </div>
+                </section> 
+            </informa>
+
+            <informa class="auto_servicios">
+                <section class="concep_autoserv">
+                    <div class="titulos_saphcm"><h2>Auto Servicios del Empleado y del Gerente (ESS/MSS)</h2></div>
+                    <p>
+                        Interfaz sencilla que permite a los empleados y gerentes llevar a cabo de manera eficaz la automatización de los procesos tradicionalmente realizados en papel.
+                    </p>
+                </section>
+                <section class="autoserv_varios">
+                    <div class="ess">
+                        <div class="titulos_saphcm"><h2>Auto Servicios del Empleado (ESS)</h2></div>
+                        <ul class="listas_saphcm">
+                            <li>Permite a los empleados gestionar eventos personales y laborales importantes, con asistencia técnica centralizada.</li>
+                            <li>La herramienta aumenta la motivación y la moral del personal de Recursos Humanos, al automatizar tareas rutinarias debido a que soporta más de 80 actividades; desde la búsqueda de empleados y la gestión de beneficios hasta la gestión de viajes y contratación.</li>
+                            <li>Incrementa la productividad y la eficacia al liberar tiempo para concentrarse en otras tareas de mayor valor al generar simplificación de tareas, reducción de papeleo y optimización de flujos de trabajo.</li>
+                        </ul>
+                    </div>
+                    <div class="mss">
+                        <div class="titulos_saphcm"><h2>Auto Servicios del Gerente (MSS)</h2></div>
+                        <ul class="listas_saphcm">
+                            <li>Proporciona a los gerentes la herramienta para llevar a cabo de manera eficaz sus tareas claves y les ayuda a garantizar que se alinean a los objetivos estratégicos del negocio.</li>
+                            <li>Permite identificar los empleados más destacados y guardar la información para ajustar las estrategias de recompensa.</li>
+                            <li>Apoyo la contratación de personal adecuado.</li>
+                            <li>Favorece el control de costos permitiendo organizar los departamentos medulares en el centro de las iniciativas de reducción de costos.</li>
+                            <li>Provee opciones flexibles para elaboración de informes que permite cuantificar y transmitir los efectos de las estrategias gerenciales sobre todos los resultados.</li>
+                            <li>Los gerentes pueden alcanzar una mayor eficacia y productividad, con la facilidad y rapidez de acceso a través del dispositivo móvil o el computador de escritorio.</li>
+                        </ul>
+                    </div>                    
+                </section>
+            </informa>
+
+            <footer>
+                <section class="links">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="saphcm.html">SAP HCM</a>
+                    <a href="construccion.html">Soporte Técnico</a>
+                    <a href="contacto.html">Contáctanos</a>
+                </section>
+                <div class="social">
+                    <a class="icon-facebook" href="#"></a>
+                    <a class="icon-instagram" href="#"></a>
+                    <a class="icon-twitter" href="#"></a>
+                </div>
+            </footer>            
+        </div>
     </body>
-</html>
+</html> 

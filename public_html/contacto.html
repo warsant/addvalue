@@ -1,56 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/contacto.css">
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <link rel="shortcut icon" href="img/addvalue_nuevo2.ico">
         <title>Contacto</title>
-        <!--script src="js/jquery.slides.js"></script-->
-        <script src="js/jquery.flexslider.js"></script>
-        <script type="text/javascript" charset="utf-8">
-            $(window).load(function() {
-                $('.flexslider').flexslider({
-                    touch: true,
-                    pauseOnAction: false,
-                    pauseOnHover: false,
-                });
-            });
-        </script>        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <!--script src="js/valida.js"></script-->        
+        <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+        <link rel="import" href="bower_components/info-card/info-card.html">
     </head>
     <body>
-
-
-                    <div class="flexslider">
-                        <ul class="slides">
-                            <li>
-                                <img src="img/slider/slider01.jpg" alt="">
-                                <section class="flex-caption">
-                                    <p>Usted cuenta con nuestro equipo de expertos en SAP-HCM</p>
-                                </section>
-                                <div class="background trans"></div>
+        <div class="contenedor">
+            <header class="header">
+                <div class="logo-menu">
+                    <img class="logo" src="img/addvalue_nuevo.jpg" alt="">
+                    <span class="icon-menu" id="btn-menu"></span>
+                    <nav class="nav" id="nav">
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a class="menu-link select" href="index.html">
+                                    <img class="img-inicio" src="img/Inicio3d.png" width="20" alt="">
+                                </a>
                             </li>
-                            <li>
-                                <img src="img/slider/slider02.jpg" alt="">
-                                <section class="flex-caption">
-                                    <p>Desarrolle las competencias de sus empleados en SAP-HCM</p>
-                                </section>
-                                <div class="background trans"></div>
-                            </li>
-                            <li>
-                                <img src="img/slider/slider03.jpg" alt="">
-                                <section class="flex-caption">
-                                    <p>Agilice su gestión de nómina y optimice los procesos de Recursos Humanos</p>
-                                </section>
-                                <div class="background trans"></div>
-                            </li>
-                            <li>
-                                <img src="img/slider/slider06_b.jpg" alt="">
-                                <section class="flex-caption">
-                                    <p>Nuestra sede ubicada en un sitio estratégico para estar siempre cerca de usted</p>
-                                </section>
-                                <div class="background trans"></div>
-                            </li>                                               
+                            <li class="menu-item"><a class="menu-link" href="nosotros.html">Nosotros</a></li>
+                            <li class="menu-item"><a class="menu-link" href="servicios.html">Servicios</a></li>
+                            <li class="menu-item"><a class="menu-link" href="saphcm.html">SAP HCM</a></li>
+                            <li class="menu-item"><a class="menu-link" href="construccion.html">Soporte Técnico</a></li>
+                            <li class="menu-item"><a class="menu-link" href="contacto.html">Contáctanos</a></li>
                         </ul>
-                    </div>  
+                    </nav>                    
+                </div>
+            </header>
+            <script src="js/menu.js"></script>
+            <div class="rsocial">
+                <ul>
+                    <li><a href="http://www.facebook.com/" target="_blank" class="icon-facebook"></a></li>
+                    <li><a href="http://www.instagram.com/" target="_blank" class="icon-instagram"></a></li>
+                    <li><a href="http://www.twitter.com/" target="_blank" class="icon-twitter"></a></li>
+                </ul>
+            </div>
+
+            <imagenempresa class="imagen-contacto">
+                <img class="img_contacto" src="img/banner-contactanos.jpg">
+                <hr class="linea_contacto">
+            </imagenempresa>
+
+            <informa class="informa_contacto">
+                <section class="contactanos">
+                    <div class="titulos_contacto"><h2>Contactanos</h2></div>
+                    <p>
+                        Para consultas de implementaciones, cotizaciones e información adicional, puede ponerse en contacto con nosotros vía telefónica por los números:<br/>
+                        Oficina: +506-403-35101<br/>
+                        Celular: +506-601-88060
+                        <br/>
+                        <br/>
+                        O si lo prefiere puede utilizar nuestro formulario de contacto y escribirnos donde con gusto y oportunamente le responderemos.
+                    </p>
+                </section>
+
+                <form class="form_contacto" action="enviar.php" method="post" name="form_contacto">
+                    <div class="titulos_contacto"><h2>Escribenos</h2></div>   
+                    <input class="textos nombre"  type="text" name="nombre" placeholder="Nombre" required="">
+                    <input type="email" class="textos mail" name="mail" placeholder="Correo" required="" pattern="^[\w._%-]+@[\w.-]+\.[a-zA-Z]{2,4}$">
+                    <input type="tel" class="textos telf" name="telefono" placeholder="Telefono" required="">
+                    <textarea name="mensaje" class="mensaje" placeholder="Escriba aquí su mensaje" required=""></textarea>
+                    <div class="boton_contacto">
+                        <input type="submit" value="Enviar" id="boton">
+                    </div>
+                </form>
+            </informa>           
+            <footer>
+                <section class="links">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="saphcm.html">SAP HCM</a>
+                    <a href="construccion.html">Soporte Técnico</a>
+                    <a href="contacto.html">Contáctanos</a>
+                </section>
+                <div class="social">
+                    <a class="icon-facebook" href="#"></a>
+                    <a class="icon-instagram" href="#"></a>
+                    <a class="icon-twitter" href="#"></a>
+                </div>
+            </footer>            
+        </div>
     </body>
-</html>
+</html> 

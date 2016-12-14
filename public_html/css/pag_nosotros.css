@@ -43,7 +43,6 @@
 /*------- Contenedor de Nosotros, Misión y Visión -------*/
 .informa_nosotros{
 	width: 100%;
-	margin-top: 20px;
 	margin-bottom: 20px;
 	padding-bottom: 30px;
 	padding-left: 20px;
@@ -77,10 +76,13 @@
 
 .titulos_nosotros{
 	width: 100%;
-	color: #20528D;
+	background: #20528D;
+	color: #fff;
 	font-size: 15px;
 	letter-spacing: 2px;
 	text-align: center;
+	margin-bottom: 20px;
+	box-shadow: 0 20px 20px -15px #000;
 }
 
 /*------- Contenedor de Nosotros, Misión y Visión -------*/
