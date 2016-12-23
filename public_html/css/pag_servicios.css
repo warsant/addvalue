@@ -19,7 +19,7 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 150px;
+    padding-top: 100px;
     align-content: center;
 
     /* Flex */
@@ -31,12 +31,14 @@
 
 .img_servicios{
 	width: 100%;
-	height: 180px;
+	height: 360px;
 	margin-bottom: 10px;
 }
 
-.titulos_servicios{
+/*------- Títulos de la página de servicios -------*/
+.titulos_servicios_p{
 	width: 100%;
+	height: auto;
 	background: #20528D;
 	color: #fff;
 	font-size: 15px;
@@ -44,13 +46,34 @@
 	text-align: center;
 	margin-bottom: 20px;
 	box-shadow: 0 20px 20px -15px #000;
+
+	/* Flex */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;		
 }
 
+.titulos_servicios_s{
+	width: 100%;
+	height: auto;
+	background: #709CCF;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-bottom: 20px;
+	box-shadow: 0 20px 20px -15px #000;
+
+	/* Flex */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;		
+}
 
 /*------- Contenedor de nuestros servicios -------*/
 .nuestros-servicios{
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-bottom: 20px;
 	padding-bottom: 30px;
 	padding-left: 20px;
@@ -130,5 +153,11 @@
 .linea_servicios{
 	color: gray;
 	width: 100%;
+}
+
+@media(max-width: 480px){
+  .saphcm, .nominas, .soporte, .documentacion, {
+        width: 100%;
+  }
 }
 

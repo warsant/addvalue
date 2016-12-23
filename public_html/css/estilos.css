@@ -33,6 +33,10 @@ body{
     min-height: 100vh;
 }
 
+em {
+  font-weight: bolder;
+}
+
 .contenedor {
     width: 90%;
     max-width: 1000px;
