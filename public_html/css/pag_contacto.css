@@ -64,8 +64,8 @@
 .informa_contacto{
 	width: 100%;
 	margin-top: 0px;
-	margin-bottom: 20px;
-	padding-bottom: 30px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
 	/*box-shadow: 0 20px 20px -12px #000;	
@@ -113,11 +113,11 @@
 .form_contacto{
     width: 450px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     background: rgba(0, 0, 0, 0.3);
     padding: 10px 20px;
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 7px;
 
     /* Flex */
@@ -133,11 +133,24 @@
     justify-content: center;  
 }
 
-.textos, .mensaje, .boton_contacto{
+.textos, .mensaje{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 7px;
     box-sizing: border-box;
+}
+
+.boton_contacto{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 1px;
+}
+
+#boton{
+    color: #20528D;
+    font-weight: bolder;
+    box-sizing: border-box;
+    box-shadow: 0 8px 8px -5px #000;
 }
 
 .boton_contacto{

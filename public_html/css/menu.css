@@ -53,7 +53,7 @@
 
 .icon-menu:hover{
     /*background: #dadadf;*/
-    background: #20528D;
+    background: #709CCF;
     color: white;
     cursor: pointer;
 }
@@ -86,7 +86,7 @@
     padding: 10px;
     height: 40px;
     /*background: #dadadf;*/
-    background: #20528D;
+    background: #709CCF;
     text-decoration: none;
     color: white;
 }
@@ -127,14 +127,14 @@
 
     .menu-link:hover {
         /*background: #dadadf;*/
-        background: #20528D;
+        background: #709CCF;
         box-shadow: 0 20px 20px -15px #000;
         color: white;
     }
 
-    .select{
+    .selecte{
         /*background: #dadadf;*/
-        background: #20528D;
+        background: #709CCF;
         box-shadow: 0 20px 20px -15px #000;
         color: white;
     }   

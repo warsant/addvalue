@@ -12,7 +12,6 @@ Color gris del logo a utilizar #8E9298
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
         <link rel="stylesheet" href="css/estilos.css">
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-        <script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
         <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
         <link rel="import" href="bower_components/info-card/info-card.html">
     </head>
@@ -40,7 +39,7 @@ Color gris del logo a utilizar #8E9298
                                 <a class="menu-link" href="saphcm.html">SAP HCM</a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="soporte.html">Soporte Técnico</a>
+                                <a class="menu-link" href="construccion.html">Soporte Técnico</a>
                             </li>
                             <li class="menu-item">
                                 <a class="menu-link" href="contacto.html">Contáctanos</a>
@@ -59,31 +58,29 @@ Color gris del logo a utilizar #8E9298
             </div>
             <imagenemp>
                 <div class="main">
-                    <div class="slider-wraper theme-default">
-                        <div id="slider" class="nivoSlider">     
-                            <img src="img/slider/slider01.jpg" alt="" title="#htmlcaption1"/>    
-                            <img src="img/slider/slider02.jpg" alt="" title="#htmlcaption2" />
-                            <img src="img/slider/slider03.jpg" alt="" title="#htmlcaption3" />
-                            <img src="img/slider/slider06_b.jpg" alt="" title="#htmlcaption4"/>      
-                        </div> 
-                        <div id="htmlcaption1" class="nivo-html-caption">     
-                            <p>Usted cuenta con nuestro equipo de expertos en SAP-HCM.</p>
+                    <div id="contenedor-slider" class="contenedor-slider">
+                        <div id="slider" class="slider">
+                            <div class="slider__section">
+                                <img src="img/slider/slider01.jpg" class="slider__img">
+                                <div class="background">Agilice su gestión de nómina y optimice los procesos de Recursos Humanos</div>
+                            </div>
+                            <div class="slider__section">
+                                <img src="img/slider/slider02.jpg" class="slider__img">
+                                <!--div class="background">Nuestra Ubicación Geográfica nos permite brindarles servicios competitivos con rapidez y de alta calidad a bajos costos.</div-->                                
+                            </div>
+                            <div class="slider__section">
+                                <img src="img/slider/slider03.jpg" class="slider__img">
+                                <!--div class="background">Usted cuenta con nuestro equipo de expertos en SAP-HCM</div-->
+                            </div>
+                            <div class="slider__section">
+                                <img src="img/slider/slider06_b.jpg" class="slider__img">
+                                <!--div class="background">Desarrolle las competencias de sus empleados en SAP-HCM</div-->
+                            </div>
                         </div>
-                        <div id="htmlcaption2" class="nivo-html-caption">     
-                            <p>Desarrolle las competencias de sus empleados en SAP-HCM.</p>
-                        </div>
-                        <div id="htmlcaption3" class="nivo-html-caption">     
-                            <p>Agilice su gestión de Nómina y Optimice los procesos de Recursos Humanos.</p>
-                        </div>
-                        <div id="htmlcaption4" class="nivo-html-caption">     
-                            <p>Nuestra ubicación geográfica nos permite brindarle servicios competitivos con rápidez, de alta calidad y a bajos costos.</p>
-                        </div>            
+                        <div id="btn-prev" class="btn-prev">&#60;</div>
+                        <div id="btn-next" class="btn-next">&#62;</div>
                     </div>
-                    <script type="text/javascript"> 
-                        $(window).on('load', function() {
-                            $('#slider').nivoSlider(); 
-                        }); 
-                    </script> 
+                    <script type="text/javascript" src="js/slides.js"></script>
                 </div>
             </imagenemp>
             <empresa class="empresa">
