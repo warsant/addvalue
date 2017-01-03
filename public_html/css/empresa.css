@@ -27,8 +27,8 @@
 }
 
 .empresa .experien .concepto{
-    background: #20D7EF;
-    color: #3E4242;
+    background: #709CCF;
+    color: #ffffff;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 0;
@@ -38,12 +38,12 @@
 .empresa .experien .concepto h3{
     font-size: 18px;
     font-weight: bolder;
-    color: #3E4242;
+    color: #ffffff;
 }
 
 .empresa .experien .concepto .pconcep{
     font-size: 14px;
-    color: #3E4242;
+    color: #ffffff;
     text-align: justify;
 }
 
