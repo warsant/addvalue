@@ -2,38 +2,30 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" />
-        <link rel="stylesheet" href="css/addvalue_slider.css" type="text/css" />
-        <link rel="stylesheet" href="css/themes/default/default.css" type="text/css" />  
+        <link rel="stylesheet" href="css/estilos.css" type="text/css" />
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>  
-        <script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
-        <script type="text/javascript"> 
-            $(window).on('load', function() {
-                $('#slider').nivoSlider(); 
-            }); 
-        </script>        
+        <script src="js/slider.js" type="text/javascript"></script>      
 
     </head>
     <body>
-        <div class="slider-wraper theme-default">
-            <div id="slider" class="nivoSlider">     
-                <img src="img/slider/slider01.jpg" alt="" title="#htmlcaption1"/>    
-                <img src="img/slider/slider02.jpg" alt="" title="#htmlcaption2" />
-                <img src="img/slider/slider03.jpg" alt="" title="#htmlcaption3" />
-                <img src="img/slider/slider06.jpg" alt="" title="#htmlcaption4"/>      
-            </div> 
-            <div id="htmlcaption1" class="nivo-html-caption">     
-                <p>Usted cuenta con nuestro equipo de expertos en SAP-HCM.</p>
+        <div id="contenedor-slider" class="contenedor-slider">
+            <div id="slider" class="slider">
+                <section class="slider__section">
+                    <img src="img/slider/slider01_t.jpg" class="slider__img"/>    
+                </section>
+                <section class="slider__section">
+                    <img src="img/slider/slider02_t.jpg" class="slider__img"/>
+                </section>
+                <section class="slider__section">
+                    <img src="img/slider/slider03_t.jpg" class="slider__img"/>
+                </section>
+                <section class="slider__section">
+                    <img src="img/slider/slider04_t.jpg" class="slider__img"/>
+                </section>
             </div>
-            <div id="htmlcaption2" class="nivo-html-caption">     
-                <p>Desarrolle las competencias de sus empleados en SAP-HCM.</p>
-            </div>
-            <div id="htmlcaption3" class="nivo-html-caption">     
-                <p>Agilice su gestión de Nómina y Optimice los procesos de Recursos Humanos.</p>
-            </div>
-            <div id="htmlcaption4" class="nivo-html-caption">     
-                <p>Nuestra ubicación geográfica nos permite brindarle servicios competitivos con rápidez, de alta calidad y a bajos costos.</p>
-            </div>            
+            <div id="btn-prev" class="btn-prev">&#60;</div>
+            <div id="btn-next" class="btn-next">&#62;</div>
         </div>
+        <script src="js/slider.js"></script>
     </body>
 </html>
